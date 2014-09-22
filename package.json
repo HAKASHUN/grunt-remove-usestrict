@@ -2,10 +2,12 @@
   "name": "grunt-remove-usestrict",
   "version": "0.1.0",
   "description": "A grunt task for removing 'use strict' from your files.",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HAKASHUN/grunt-remove-usestrict.git"
+  },
   "author": {
     "name": "HAKASHUN",
-    "email": "",
     "url": "http://hakashun.me"
   },
   "keywords": [
