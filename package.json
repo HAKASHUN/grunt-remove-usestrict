@@ -1,0 +1,33 @@
+{
+  "name": "grunt-remove-usestrict",
+  "version": "0.1.0",
+  "description": "A grunt task for removing 'use strict' from your files.",
+  "repository": "",
+  "author": {
+    "name": "HAKASHUN",
+    "email": "",
+    "url": "http://hakashun.me"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "~0.5.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
