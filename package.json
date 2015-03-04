@@ -1,6 +1,6 @@
 {
   "name": "grunt-remove-usestrict",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A grunt task for removing 'use strict' from your files.",
   "repository": {
     "type": "git",
