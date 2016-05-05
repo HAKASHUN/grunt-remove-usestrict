@@ -37,7 +37,7 @@ module.exports = function (grunt) {
           if(!grunt.file.isDir(s)) {
             grunt.log.writeln('Removing "use strict" from ' + chalk.cyan(s) + ' to ' + chalk.cyan(dest));
             var sourceCode = '' + grunt.file.read(s, {encoding: 'utf8'});
-            sourceCode = sourceCode.replace(/("|')use strict\1;?/g, '');
+            sourceCode = sourceCode.replace(/("|')use strict\1;?\s*/g, '');
             grunt.file.write(dest, sourceCode, {encoding: 'utf8'});
           }
         });
